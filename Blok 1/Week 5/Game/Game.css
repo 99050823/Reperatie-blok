@@ -1,0 +1,24 @@
+.container {
+    background-color: #514DC3;
+    text-align: center;
+    margin-left: 7cm;
+    margin-right: 7cm;
+    padding-bottom: 3cm;
+    padding-top: 0.5cm;
+}
+
+#button1  {
+    position: relative;
+    top: 1cm;
+
+    height: 50px;
+    width: 120px;
+}
+
+#button2 {
+    position: relative;
+    top: 1cm;
+
+    height: 50px;
+    width: 120px;
+}

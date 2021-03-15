@@ -7,13 +7,13 @@ body {
     margin: 0 auto;
 }
 
-.header {
+header {
     text-align: center;
     background-color: green;
     color: white;
 }
 
-.navBar {
+nav {
     background-color: green;
     color: white;
     text-align: center;
@@ -21,30 +21,30 @@ body {
     bottom: 0.6cm;
 }
 
-.navBar ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navBar li {
+nav li {
     display: inline;
     margin-right: 100px;
     position: relative;
     left: 1cm;
 }
 
-.navBar a {
+nav a {
     color: white;
     text-decoration: none;
 }
 
-.navBar a:hover {
+nav a:hover {
     color: black;
     background-color: #4D4C4C;
 }
 
-.tekst {
+article {
     color: white;
     text-align: center;
     background-color: #4D4C4C;
@@ -55,7 +55,7 @@ body {
     padding: 20px;
 }
 
-.footer {
+footer {
     background-color: #4D4C4C;
     color: white;
     text-align: center;

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café app</title>
+    <link rel="stylesheet" href="Cafe.css">
+</head>
+<body>
+
+    <div class="bestelPaneel">
+
+        <h1>Café App</h1>
+
+        <button id="snacks">Snacks</button>
+        <button id="drankjes">Drankjes</button>
+        <button id="bon">Print de bon</button>
+
+    </div>
+
+    <div id="kassabon">
+        <h2 onclick="bon()">Kassabon</h2>
+        <hr>
+    </div>
+
+    <div id="popUp" class="popUp">
+        <div id="popUpContent" class="popUpContent">
+            <p id="bier"></p>
+            <p id="wijn"></p>
+            <p id="fris"></p>
+            <p id="bitter8"></p>
+            <p id="bitter16"></p>
+            <p>-------------------------</p>
+            <p id="Totaal">Totaal = € </p>
+            <button class="buttonPopUp1" onclick=buttonPopUp1()>Terug</button>
+        </div>
+    </div>
+    
+</body>
+<script src="Cafe.js"></script>
+</html>

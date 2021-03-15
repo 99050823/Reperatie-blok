@@ -1,0 +1,59 @@
+.bestelPaneel {
+    margin-left: 9cm;
+    margin-right: 9cm;
+
+    padding-bottom: 2cm;
+    padding-top: 20px;
+
+    text-align: center;
+
+    background-color: #4673CE;
+}
+
+.bestelPaneel button {
+    display: inline;
+    position: relative;
+
+    width: 100px;
+    height: 45px;
+
+    top: 1cm;
+}
+
+#kassabon {
+    visibility: hidden;
+
+    background-color: white;
+    text-align: center;
+
+    margin-left: 9cm;
+    margin-right: 9cm;
+
+}
+
+#kassabon h2:hover {
+    color: blue;
+}
+
+.popUp {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.popUpContent {
+    background-color: #fefefe;
+    text-align: center;
+    margin-left: 9cm;
+    margin-right: 9cm;
+    margin-top: 5cm;
+
+    padding: 60px;
+}

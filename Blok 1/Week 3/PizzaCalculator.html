@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza's</title>
+    <link rel="stylesheet" href="PizzaCalculator.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Kies uw Pizza's</h1>
+
+        <button id="small">Small</button>
+        <button id="medium">Medium</button>
+        <button id="large">Large</button>
+
+        <button id="bon">Print de bon</button>
+
+    </div>
+
+    <div id="kassabon">
+        <h1>Kassabon</h1>
+        <hr>
+
+        <nav>
+            <ul>
+                <li onclick="smallClick()">Small</li>
+                <li onclick="mediumClick()">Medium</li>
+                <li onclick="largeClick()">Large</li>
+            </ul>
+        </nav>
+
+        <p id="totaalBedrag">Totaal € = </p>
+    </div>
+
+    <div id="popUpSmall" class="popUp">
+        <div id="popUpSmallContent" class="popUpContent">
+            <p id="prijsSmall">Totale prijs kleine pizza = € </p>
+            <p id="aantal1">Aantal kleine pizza's = </p>
+            <button class="buttonPopUp1" onclick=buttonPopUp1()>Terug</button>
+        </div>
+    </div>
+
+    <div id="popUpMedium" class="popUp">
+        <div id="popUpMediumContent" class="popUpContent">
+            <p id="prijsMedium">Totale prijs normale pizza = € </p>
+            <p id="aantal2">Aantal normale pizza's = </p>
+            <button class="buttonPopUp2" onclick=buttonPopUp2()>Terug</button>
+        </div>
+    </div>
+
+    <div id="popUpLarge" class="popUp">
+        <div id="popUpLargeContent" class="popUpContent">
+            <p id="prijsLarge">Totale prijs grote pizza = € </p>
+            <p id="aantal3">Aantal grote pizza's = </p>
+            <button class="buttonPopUp3" onclick=buttonPopUp3()>Terug</button>
+        </div>
+    </div>
+
+
+    <footer>Gemaakt door : Luuk van Wijgerden</footer>
+
+
+</body>
+<script src="PizzaCalculator.js"></script>
+</html>
