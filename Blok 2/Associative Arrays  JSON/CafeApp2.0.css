@@ -1,0 +1,34 @@
+body {
+    background-color: #C03434;
+    text-align: center;
+}
+
+#bestel {
+    margin-top: 6cm;
+    width: 150px;
+    height: 75px;
+}
+
+#bestelSnacks {
+    margin-top: 6cm;
+    width: 150px;
+    height: 75px;
+}
+
+#print {
+    margin-top: 6cm;
+    width: 150px;
+    height: 75px;
+}
+
+#bon {
+    visibility: hidden;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+    margin-top: 3cm;
+}
+
+#bon p {
+    position: relative;
+    bottom: 3.5cm;
+}

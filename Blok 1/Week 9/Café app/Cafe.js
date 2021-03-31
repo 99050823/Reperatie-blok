@@ -17,20 +17,10 @@ function bestellenDrinken () {
 
     while (bestelling != "stop") {
         var bestelling = prompt("Maak u keuze: bier, wijn of fris?");
-
-        if (bestelling == "bier") {
-            aantallen['bier'] = prompt("Hoeveel bier wilt u bestellen?");
-        }
-
-        if (bestelling == "fris") {
-            aantallen['fris'] = prompt("Hoeveel blikjes fris wilt u bestellen?");
-        }
-
-        if (bestelling == "wijn") {
-            aantallen['wijn'] = prompt("Hoeveel glazen wijn wilt u bestellen?");
-        }
-    }
-
+        
+        aantallen[bestelling] = aantallen[bestelling] + parseInt(prompt("Hoeveel flessen " + bestelling + " wilt u bestellen?"));
+        console.log(aantallen);
+    } 
 }
 
 function bestellenSnacks () {
